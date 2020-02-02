@@ -15,6 +15,8 @@ import unicodedata
 from tqdm.auto import tqdm
 
 nltk.download('stopwords')
+nltk.download('wordnet')
+
 stopword_list = nltk.corpus.stopwords.words('english')
 
 wnl = WordNetLemmatizer()

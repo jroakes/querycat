@@ -16,6 +16,7 @@ from tqdm.auto import tqdm
 
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('punkt')
 
 stopword_list = nltk.corpus.stopwords.words('english')
 

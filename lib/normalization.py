@@ -12,8 +12,9 @@ import string
 from nltk.stem import WordNetLemmatizer
 from html.parser import HTMLParser
 import unicodedata
-from tqdm import tqdm_notebook as tqdm
+from tqdm.auto import tqdm
 
+nltk.download('stopwords')
 stopword_list = nltk.corpus.stopwords.words('english')
 
 wnl = WordNetLemmatizer()

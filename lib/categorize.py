@@ -81,7 +81,7 @@ class Categorize:
         """
 
         min_support = data.get('min_support', 10)
-        min_lift = data.get('min_lift', 1.2)
+        min_lift = data.get('min_lift', 1)
         min_probability = data.get('min_probability', 0.5)
         min_confidence = data.get('min_confidence', 0)
 

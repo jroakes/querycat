@@ -37,7 +37,7 @@ class Categorize:
 
     def create_transactions(self, df, col):
 
-        df[[col]]     = df[col].astype(str).dropna()
+        df[col]     = df[col].astype(str).dropna()
         queries       = df[col].tolist()
 
         # normalize corpus
